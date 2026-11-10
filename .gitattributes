@@ -1,51 +1,51 @@
-/build/make
-/external/abseil-cpp
-/external/compose-hero-benchmarks/pokedex-compose
-/external/compose-hero-benchmarks/pokedex-views
-/external/icing
-/external/icu
-/external/ink-stroke-modeler
-/external/libyuv
-/external/noto-fonts
-/external/protobuf
-/external/sqlite
-/external/webview_support_interfaces
-/frameworks/support
-/golden
-/prebuilts/androidx/chrome-for-testing
-/prebuilts/androidx/credentials
-/prebuilts/androidx/exoplayer
-/prebuilts/androidx/external
-/prebuilts/androidx/ink
-/prebuilts/androidx/internal
-/prebuilts/androidx/javascript-for-kotlin
-/prebuilts/androidx/konan
-/prebuilts/androidx/traceprocessor
-/prebuilts/androidx/webgpu
-/prebuilts/androidx/xr
-/prebuilts/build-tools
-/prebuilts/checkstyle
-/prebuilts/fullsdk-darwin/cmake notdefault platform-darwin
-/prebuilts/fullsdk-linux/cmake platform-linux notdefault
-/prebuilts/fullsdk-darwin/build-tools notdefault platform-darwin
-/prebuilts/fullsdk-darwin/cmdline-tools notdefault platform-darwin
-/prebuilts/fullsdk-darwin/platform-tools notdefault platform-darwin
-/prebuilts/fullsdk-darwin/tools notdefault platform-darwin
-/prebuilts/fullsdk-linux/build-tools platform-linux notdefault
-/prebuilts/fullsdk-linux/cmdline-tools platform-linux notdefault
-/prebuilts/fullsdk-linux/platform-tools platform-linux notdefault
-/prebuilts/fullsdk-linux/tools platform-linux notdefault
-/prebuilts/fullsdk-darwin/platforms
-/prebuilts/fullsdk-darwin/sources
-/prebuilts/jdk/jdk21
-/prebuilts/jdk/jdk25
-/prebuilts/fullsdk-darwin/ninja notdefault platform-darwin
-/prebuilts/fullsdk-linux/ninja platform-linux notdefault
-/prebuilts/protobuf
-/external/dexter
-/tools/external/gradle
-/tools/metalava
-/tools/repohooks
-/prebuilts/fullsdk-darwin/ndk-bundle notdefault platform-darwin
-/prebuilts/fullsdk-linux/ndk-bundle platform-linux notdefault
-/tools/fetch_artifact
+/build/make remote-review=android
+/external/abseil-cpp remote-review=android
+/external/compose-hero-benchmarks/pokedex-compose remote-review=android
+/external/compose-hero-benchmarks/pokedex-views remote-review=android
+/external/icing remote-review=android
+/external/icu remote-review=android
+/external/ink-stroke-modeler remote-review=android
+/external/libyuv remote-review=android
+/external/noto-fonts remote-review=android
+/external/protobuf remote-review=android
+/external/sqlite remote-review=android
+/external/webview_support_interfaces remote-review=android
+/frameworks/support remote-review=android
+/golden remote-review=android
+/prebuilts/androidx/chrome-for-testing remote-review=android
+/prebuilts/androidx/credentials remote-review=android
+/prebuilts/androidx/exoplayer remote-review=android
+/prebuilts/androidx/external remote-review=android
+/prebuilts/androidx/ink remote-review=android
+/prebuilts/androidx/internal remote-review=android
+/prebuilts/androidx/javascript-for-kotlin remote-review=android
+/prebuilts/androidx/konan remote-review=android
+/prebuilts/androidx/traceprocessor remote-review=android
+/prebuilts/androidx/webgpu remote-review=android
+/prebuilts/androidx/xr remote-review=android
+/prebuilts/build-tools remote-review=android
+/prebuilts/checkstyle remote-review=android
+/prebuilts/fullsdk-darwin/cmake notdefault platform-darwin remote-review=android
+/prebuilts/fullsdk-linux/cmake platform-linux notdefault remote-review=android
+/prebuilts/fullsdk-darwin/build-tools notdefault platform-darwin remote-review=android
+/prebuilts/fullsdk-darwin/cmdline-tools notdefault platform-darwin remote-review=android
+/prebuilts/fullsdk-darwin/platform-tools notdefault platform-darwin remote-review=android
+/prebuilts/fullsdk-darwin/tools notdefault platform-darwin remote-review=android
+/prebuilts/fullsdk-linux/build-tools platform-linux notdefault remote-review=android
+/prebuilts/fullsdk-linux/cmdline-tools platform-linux notdefault remote-review=android
+/prebuilts/fullsdk-linux/platform-tools platform-linux notdefault remote-review=android
+/prebuilts/fullsdk-linux/tools platform-linux notdefault remote-review=android
+/prebuilts/fullsdk-darwin/platforms remote-review=android
+/prebuilts/fullsdk-darwin/sources remote-review=android
+/prebuilts/jdk/jdk21 remote-review=android
+/prebuilts/jdk/jdk25 remote-review=android
+/prebuilts/fullsdk-darwin/ninja notdefault platform-darwin remote-review=android
+/prebuilts/fullsdk-linux/ninja platform-linux notdefault remote-review=android
+/prebuilts/protobuf remote-review=android
+/external/dexter remote-review=android
+/tools/external/gradle remote-review=android
+/tools/metalava remote-review=android
+/tools/repohooks remote-review=android
+/prebuilts/fullsdk-darwin/ndk-bundle notdefault platform-darwin remote-review=android
+/prebuilts/fullsdk-linux/ndk-bundle platform-linux notdefault remote-review=android
+/tools/fetch_artifact remote-review=android
