@@ -1,8 +1,35 @@
-/external/ukey2 pdk
-/frameworks/opt/car/setupwizard pdk
-/packages/apps/Car/CompanionDeviceSupport pdk-fs
-/packages/apps/Car/Templates pdk-fs
-/prebuilts/checkstyle pdk
-/prebuilts/ktlint pdk
-/prebuilts/sdk pdk
-/tools/repohooks cts tradefed developers pdk tools adt-infra motodev
+/external/libyuv remote-review=android
+/external/ukey2 pdk remote-review=android
+/frameworks/opt/car/setupwizard pdk remote-review=android
+/packages/apps/Car/BugReport pdk-fs remote-review=android
+/packages/apps/Car/Calendar pdk-fs remote-review=android
+/packages/apps/Car/CompanionDeviceSupport pdk-fs remote-review=android
+/packages/apps/Car/Dashcam pdk-fs remote-review=android
+/packages/apps/Car/Dialer pdk-fs remote-review=android
+/packages/apps/Car/DriverUI pdk-fs remote-review=android
+/packages/apps/Car/Media pdk-fs remote-review=android
+/packages/apps/Car/Messenger pdk-fs remote-review=android
+/packages/apps/Car/MultiDisplay pdk-fs remote-review=android
+/packages/apps/Car/Radio pdk-fs remote-review=android
+/packages/apps/Car/SensitiveAppLock pdk-fs remote-review=android
+/packages/apps/Car/Templates pdk-fs remote-review=android
+/packages/apps/Car/libs pdk-fs remote-review=android
+/packages/apps/Car/tests pdk-fs remote-review=android
+/prebuilts/checkstyle pdk remote-review=android
+/prebuilts/cmake/darwin-x86 pdk car-apps-gradle remote-review=android
+/prebuilts/cmake/linux-x86 pdk car-apps-gradle remote-review=android
+/prebuilts/fullsdk-darwin/build-tools notdefault car-apps-gradle platform-darwin remote-review=android
+/prebuilts/fullsdk-darwin/platform-tools notdefault car-apps-gradle platform-darwin remote-review=android
+/prebuilts/fullsdk-linux/build-tools platform-linux notdefault car-apps-gradle remote-review=android
+/prebuilts/fullsdk-linux/platform-tools platform-linux notdefault car-apps-gradle remote-review=android
+/prebuilts/fullsdk-darwin/platforms car-apps-gradle remote-review=android
+/prebuilts/fullsdk-darwin/sources car-apps-gradle remote-review=android
+/prebuilts/jdk/jdk11 pdk remote-review=android
+/prebuilts/jdk/jdk17 pdk remote-review=android
+/prebuilts/jdk/jdk21 pdk car-apps-gradle remote-review=android
+/prebuilts/fullsdk-darwin/ninja car-apps-gradle remote-review=android
+/prebuilts/fullsdk-linux/ninja platform-linux notdefault car-apps-gradle remote-review=android
+/prebuilts/sdk pdk remote-review=android
+/tools/repohooks cts tradefed developers pdk tools adt-infra motodev remote-review=android
+/prebuilts/fullsdk-darwin/ndk-bundle car-apps-gradle remote-review=android
+/prebuilts/fullsdk-linux/ndk-bundle car-apps-gradle remote-review=android

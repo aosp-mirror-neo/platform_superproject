@@ -1,35 +1,153 @@
+[submodule "platform/external/libyuv"]
+	branch = main
+	path = external/libyuv
+	url = ../external/libyuv
 [submodule "platform/external/ukey2"]
-	branch = master
+	branch = main
 	path = external/ukey2
 	url = ../external/ukey2
 [submodule "platform/frameworks/opt/car/setupwizard"]
-	branch = master
+	branch = main
 	path = frameworks/opt/car/setupwizard
 	url = ../frameworks/opt/car/setupwizard
+[submodule "platform/packages/apps/Car/BugReport"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/BugReport
+	url = ../packages/apps/Car/BugReport
+[submodule "platform/packages/apps/Car/Calendar"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/Calendar
+	url = ../packages/apps/Car/Calendar
 [submodule "platform/packages/apps/Car/CompanionDeviceSupport"]
-	branch = master
+	branch = ub-automotive-main
 	path = packages/apps/Car/CompanionDeviceSupport
 	url = ../packages/apps/Car/CompanionDeviceSupport
+[submodule "platform/packages/apps/Car/Dashcam"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/Dashcam
+	url = ../packages/apps/Car/Dashcam
+[submodule "platform/packages/apps/Car/Dialer"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/Dialer
+	url = ../packages/apps/Car/Dialer
+[submodule "platform/packages/apps/Car/DriverUI"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/DriverUI
+	url = ../packages/apps/Car/DriverUI
+[submodule "platform/packages/apps/Car/Media"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/Media
+	url = ../packages/apps/Car/Media
+[submodule "platform/packages/apps/Car/Messenger"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/Messenger
+	url = ../packages/apps/Car/Messenger
+[submodule "platform/packages/apps/Car/MultiDisplay"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/MultiDisplay
+	url = ../packages/apps/Car/MultiDisplay
+[submodule "platform/packages/apps/Car/Radio"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/Radio
+	url = ../packages/apps/Car/Radio
+[submodule "platform/packages/apps/Car/SensitiveAppLock"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/SensitiveAppLock
+	url = ../packages/apps/Car/SensitiveAppLock
 [submodule "platform/packages/apps/Car/Templates"]
-	branch = master
+	branch = main
 	path = packages/apps/Car/Templates
 	url = ../packages/apps/Car/Templates
+[submodule "platform/packages/apps/Car/libs"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/libs
+	url = ../packages/apps/Car/libs
+[submodule "platform/packages/apps/Car/tests"]
+	ref = mirror-car-apps-aosp-release
+	path = packages/apps/Car/tests
+	url = ../packages/apps/Car/tests
 [submodule "platform/prebuilts/checkstyle"]
-	branch = master
+	branch = main
 	shallow = true
 	path = prebuilts/checkstyle
 	url = ../prebuilts/checkstyle
-[submodule "platform/prebuilts/ktlint"]
-	branch = master
+[submodule "platform/prebuilts/cmake/darwin-x86"]
+	ref = car-apps-release
+	path = prebuilts/cmake/darwin-x86
+	url = ../prebuilts/cmake/darwin-x86
+[submodule "platform/prebuilts/cmake/linux-x86"]
+	ref = car-apps-release
+	path = prebuilts/cmake/linux-x86
+	url = ../prebuilts/cmake/linux-x86
+[submodule "platform/prebuilts/fullsdk-darwin/build-tools"]
+	branch = ub-automotive-main
 	shallow = true
-	path = prebuilts/ktlint
-	url = ../prebuilts/ktlint
+	path = prebuilts/fullsdk-darwin/build-tools
+	url = ../prebuilts/fullsdk-darwin/build-tools
+[submodule "platform/prebuilts/fullsdk-darwin/platform-tools"]
+	branch = ub-automotive-main
+	shallow = true
+	path = prebuilts/fullsdk-darwin/platform-tools
+	url = ../prebuilts/fullsdk-darwin/platform-tools
+[submodule "platform/prebuilts/fullsdk-linux/build-tools"]
+	branch = ub-automotive-main
+	shallow = true
+	path = prebuilts/fullsdk-linux/build-tools
+	url = ../prebuilts/fullsdk-linux/build-tools
+[submodule "platform/prebuilts/fullsdk-linux/platform-tools"]
+	branch = ub-automotive-main
+	shallow = true
+	path = prebuilts/fullsdk-linux/platform-tools
+	url = ../prebuilts/fullsdk-linux/platform-tools
+[submodule "platform/prebuilts/fullsdk/platforms"]
+	branch = ub-automotive-main
+	shallow = true
+	path = prebuilts/fullsdk-darwin/platforms
+	url = ../prebuilts/fullsdk/platforms
+[submodule "platform/prebuilts/fullsdk/sources"]
+	branch = ub-automotive-main
+	shallow = true
+	path = prebuilts/fullsdk-darwin/sources
+	url = ../prebuilts/fullsdk/sources
+[submodule "platform/prebuilts/jdk/jdk11"]
+	branch = main
+	shallow = true
+	path = prebuilts/jdk/jdk11
+	url = ../prebuilts/jdk/jdk11
+[submodule "platform/prebuilts/jdk/jdk17"]
+	branch = main
+	shallow = true
+	path = prebuilts/jdk/jdk17
+	url = ../prebuilts/jdk/jdk17
+[submodule "platform/prebuilts/jdk/jdk21"]
+	branch = main
+	shallow = true
+	path = prebuilts/jdk/jdk21
+	url = ../prebuilts/jdk/jdk21
+[submodule "platform/prebuilts/ninja/darwin-x86"]
+	ref = car-apps-release
+	path = prebuilts/fullsdk-darwin/ninja
+	url = ../prebuilts/ninja/darwin-x86
+[submodule "platform/prebuilts/ninja/linux-x86"]
+	ref = car-apps-release
+	path = prebuilts/fullsdk-linux/ninja
+	url = ../prebuilts/ninja/linux-x86
 [submodule "platform/prebuilts/sdk"]
-	branch = master
+	branch = android16-release
 	shallow = true
 	path = prebuilts/sdk
 	url = ../prebuilts/sdk
 [submodule "platform/tools/repohooks"]
-	branch = master
+	branch = main
 	path = tools/repohooks
 	url = ../tools/repohooks
+[submodule "toolchain/prebuilts/ndk-darwin/r27"]
+	branch = main
+	shallow = true
+	path = prebuilts/fullsdk-darwin/ndk-bundle
+	url = ../../toolchain/prebuilts/ndk-darwin/r27
+[submodule "toolchain/prebuilts/ndk/r27"]
+	branch = main
+	shallow = true
+	path = prebuilts/fullsdk-linux/ndk-bundle
+	url = ../../toolchain/prebuilts/ndk/r27
