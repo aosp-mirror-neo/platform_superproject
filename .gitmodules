@@ -1,3 +1,7 @@
+[submodule "platform/external/turbine"]
+	branch = metalava-main
+	path = external/turbine
+	url = ../external/turbine
 [submodule "platform/prebuilts/jdk/jdk21"]
 	branch = main
 	shallow = true
